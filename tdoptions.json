@@ -9,10 +9,10 @@
     "lib.es2015.promise.d.ts",
     "lib.dom.d.ts"
   ],
-  "out": "../../docs/api/theme-light-extension",
+  "out": "../../docs/api/theme-light-extension-largemenu",
   "baseUrl": ".",
   "paths": {
-    "@jupyterlab/*": ["../packages/*"]
+    "@ruaridht/*": ["../packages/*"]
   },
   "esModuleInterop": true,
   "jsx": "react",

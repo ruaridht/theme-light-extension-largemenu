@@ -16,3 +16,32 @@ pre {
   font-size: var(--jp-code-font-size);
   line-height: var(--jp-code-line-height);
 }
+
+div .p-Widget .p-Panel #jp-top-panel {
+	-webkit-app-region: drag;
+
+	height: 48px;
+	padding-left: 60px;
+	padding-top: 0px;
+}
+
+/* but any buttons inside the header shouldn't be draggable */
+/*header button {
+  -webkit-app-region: no-drag;
+}*/
+
+/* perhaps move some items out of way for the traffic light */
+/*header div:first-child {
+  margin-left: 100px;
+  margin-top: 25px;
+}*/
+
+.jp-JupyterIcon {
+	background-size: 30px;
+}
+
+div.p-Widget .p-MenuBar #jp-MainMenu {
+	padding-top: 10px;
+	font-size: 1em;
+	font-family: "Muli";
+}
